@@ -1,0 +1,38 @@
+var wisher= document.getElementById("wish");
+setTimeout(()=>{
+    wisher.innerText=10;
+    setTimeout(()=>{
+        wisher.innerText=9;
+        setTimeout(()=>{
+            wisher.innerText=8;
+            setTimeout(()=>{
+                wisher.innerText=7;
+                setTimeout(()=>{
+                    wisher.innerText=6;
+                    setTimeout(()=>{
+                        wisher.innerText=5;
+                        setTimeout(()=>{
+                            wisher.innerText=4;
+                            setTimeout(()=>{
+                                wisher.innerText=3;
+                                setTimeout(()=>{
+                                    wisher.innerText=2;
+                                    setTimeout(()=>{
+                                        wisher.innerText=1;
+                                        setTimeout(()=>{
+                                            wisher.innerText=0;
+                                            document.getElementById('count').style.display='none';
+                                            document.getElementById('wish').style.display='none';
+                                            document.getElementById('myimage').style.display = 'block';
+                                            document.getElementById('day').style.display='block';   
+                                        },1000)
+                                    },1000)
+                                },1000)
+                            },1000)
+                        },1000)
+                    },1000)
+                },1000)
+            },1000)
+        },1000)
+    },1000)
+},1000)
